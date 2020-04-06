@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'titillium web';
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 5px 10px rgb(100, 98, 98 0.75);
+    position: fixed;
+    opacity: 50px;
+    background-color: #D9E1E2;
+
+}
+.container-header{
+    width: 90%;
+    margin: auto;
+    height: 80px;
+
+}
+.logo{  
+    width: 50%;
+    height: 80px;
+    float: left;
+    padding-top: 45px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: #000000;
+}
+nav{
+    width: 50%;
+    height: 80px;
+    text-align: right;
+    float: left;
+    font-size: 18px;
+
+}
+.item-menu{
+    list-style: none;
+    display: inline-block;
+    padding-top: 45px;
+}
+.item-menu a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-right: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+.container-home{
+    width: 100%;
+    height: 730px;
+    background-image: url(img/fondo-hero.jpg);
+    background-size: cover;
+    min-width: 700PX;
+    
+}
+main{
+    display: block  ;
+}
+.container-details-home{
+    padding-top: 80px;
+    
+}
+.container-services{
+    width: 100%;
+    background-color: #ffffff;
+ 
+}
+
+
+.details-services{
+    width: 80%;
+    margin: auto;
+    
+
+
+    
+}
+.fila-one{
+    border: 6px solid black;
+    width: 40%;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-bottom: 30px;
+    padding: 24px;
+}
+.fila-two{
+    border: 6px solid black;
+    width: 40%;
+    display: inline-block;
+    margin-left: 7%;
+    margin-bottom: 30px;
+    padding: 24px;
+    
+}
+.title-services{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 56px;
+    
+}
+ .fa-laptop-house{
+    margin-right: 10px;
+}
+.btn-services{
+    font-size: 14px;
+    padding: 15px 26px;
+    border-radius: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 172px;
+    text-align: center;
+}
+.icon-eye{
+    margin-left: 10px;
+}
+.btn-services:hover{
+    color: chartreuse;
+}
+.image__{
+    width: 340px;
+    height: 245px;
+    padding-top: 10px;
+
+
+}
+.container-products{
+    width: 100%;
+}
+.details-products{
+  width: 80%;
+  margin: auto;  
+}
+.container-img-products{
+    width: 31%;
+    border: 3px solid #000000;
+    display: inline-block;
+    margin-right: 10px;
+}
+.container-img-products{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container-img-products a{
+    margin-bottom: 50px;
+}
+.view-more{
+    border: 1px solid #1a1a1a;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+.view-more a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.view-more a:hover{
+    color: chartreuse;
+}
+.title-products{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 56px;
+    
+    
+}
+.fa-shopping-cart{
+    margin-right: 20px;
+}
+.details-products ul li{
+    padding-top: 10px;
+}
+.title-team{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-size: 56px;
+    
+}
+.fa-users-cog{
+    padding-right: 20px;
+}
+
+.team img{
+    width: 330px;
+    height: 310px;
+    float: right;
+    border-radius: 790px;
+    margin-top: -50px;
+    margin-left: 30px;
+    border: 6px solid #D9E1E2;
+}
+.container-team{
+    width: 100%;
+}
+.details-team{ 
+    width: 80%;
+    margin: auto;
+    display: block;
+    
+ }
+ .hidden{
+     opacity: 0%;
+ }
